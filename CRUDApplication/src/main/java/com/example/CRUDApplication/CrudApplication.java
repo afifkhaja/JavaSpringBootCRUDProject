@@ -1,0 +1,16 @@
+// Java CRUD App in 30 minutes - fully working demo
+// https://www.youtube.com/watch?v=ZZTYQIUd_uY
+
+package com.example.CRUDApplication;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CrudApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CrudApplication.class, args);
+	}
+
+}
